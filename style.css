@@ -1,0 +1,82 @@
+html * { 
+    font-family: 'Lora', serif;
+  }
+
+body {
+    max-width: 800px; 
+	margin: 2% auto ; 
+	float: none ; 
+    padding: 4%;
+    background-color: #FEFAF3;
+    line-height: 30px;
+    font-size: 18px;
+    
+  }
+  
+
+.cursor{
+    background-color: black;
+    animation: blink 1s linear infinite;
+}
+
+
+@keyframes blink{
+0%{opacity: 0;}
+50%{opacity: 1;}
+100%{opacity: 0;}
+}
+
+.Typing {
+    color: #bbb;
+    font-size: 1.8em;
+    text-align: center;
+    margin-block-start: 8em;
+    margin-block-end: 4em;
+    
+}
+
+.Stats {
+    font-size: 1.4em;
+    text-align: center;
+    margin-block-start: 4em;
+    margin-block-end: 2em;
+    
+    
+}
+
+.Scroll {
+    font-size: 1.4em;
+    text-align: center;
+    margin-block-start: 2em;
+    margin-block-end: 8em;
+    
+}
+
+.done{
+    color: black;
+}
+.undone{
+    color: red;
+    font-weight: bold;
+}
+
+h1 {
+    display: block;
+    font-size: 10em;
+    margin-block-start: 0.5em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: 500;
+    text-align: center;
+
+}
+
+.type {
+    color: rgb(7, 7, 7);
+    font-size: 1.8em;
+    text-align: center;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+
+}
